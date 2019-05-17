@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--.alaways:这个值会使菜单项一直显示在ActionBar上。-->
+
+    <!--2）.ifRoom:如果有足够的空间,这个值会使菜单显示在ActionBar上。-->
+
+    <!--3）.never:这个值菜单永远不会出现在ActionBar是。-->
+
+    <!--4）.withText:这个值使菜单和它的图标，菜单文本一起显示。-->
+    <item
+        android:id="@+id/menu_ending"
+        android:title="设置"
+        android:icon="@drawable/img"
+        app:showAsAction="never">
+    <menu>
+        <item
+            android:id="@+id/menu_ending_1"
+            android:title="设置1号" />
+        <item
+            android:id="@+id/menu_ending_2"
+            android:title="设置3号" />
+        <item
+            android:id="@+id/menu_ending_3"
+            android:title="设置3号" />
+
+
+    </menu>
+    </item>
+
+</menu>
